@@ -5,9 +5,9 @@
       <label for="subreddit">Subreddit:</label>
       <input
         name="subreddit"
+        placeholder="PumpkinStencils"
         type="text"
         v-model="subreddit"
-        placeholder="Subreddit"
       >
     </div>
 

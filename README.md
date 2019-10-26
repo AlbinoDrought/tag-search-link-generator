@@ -4,7 +4,7 @@
   <img alt="AGPL-3.0 License" src="https://img.shields.io/github/license/AlbinoDrought/tag-search-link-generator">
 </a>
 
-Easily generate a list links for searching a subreddit by tag.
+Easily generate a list of links for searching a subreddit by tags.
 
 ![Screenshot of Tag Search Link Generator UI](./.readme/action-shot.png)
 

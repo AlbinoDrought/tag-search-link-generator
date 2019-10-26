@@ -24,6 +24,7 @@
       <label for="markdown">Generated markdown:</label>
       <textarea
         name="markdown"
+        placeholder="Please enter a subreddit and some tags in the above boxes :)"
         rows="10"
         :value="markdown"
         readonly
@@ -85,7 +86,7 @@ export default {
       return this.tags.length && this.tags.some(t => t.length > 0);
     },
     markdown() {
-      if (!this.hasTags) {
+      if (!this.hasTags || !this.subreddit) {
         return '';
       }
 

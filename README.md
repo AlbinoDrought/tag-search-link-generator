@@ -7,7 +7,7 @@
 
 Easily generate a list of links for searching a subreddit by tags.
 
-![Screenshot of Tag Search Link Generator UI](./.readme/action-shot.png)
+[![Screenshot of Tag Search Link Generator UI](./.readme/action-shot.png)](https://albinodrought.github.io/tag-search-link-generator/)
 
 ## Building
 

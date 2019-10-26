@@ -13,7 +13,12 @@
 
     <div>
       <label for="tags">Tags, separated by newline:</label>
-      <textarea name="tags" rows="10" v-model="tagText" />
+      <textarea
+        name="tags"
+        :placeholder="'Aliens\nCats\nVideo Games'"
+        rows="10"
+        v-model="tagText"
+      />
       <div class="btn-group">
         <button @click.prevent="sort" type="button">Sort</button>
         <button @click.prevent="deduplicate" type="button">Deduplicate</button>
